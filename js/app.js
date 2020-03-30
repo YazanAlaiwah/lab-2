@@ -3,7 +3,7 @@
 let keywords = {};
 
 ///////////////////// ask for data //////////////////
-$.get('../data/page-1.json').then(data => {
+$.get('./data/page-1.json').then(data => {
   /// loop in the data and build an constructor object then call the render method to render the object
   data.forEach(data => {
     new bulidData(
