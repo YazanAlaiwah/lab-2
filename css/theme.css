@@ -1,0 +1,15 @@
+header {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.sec {
+  background: gray;
+  text-align: center;
+  border: 9px solid #008067;
+}
+
+footer{
+    text-align: center;
+}

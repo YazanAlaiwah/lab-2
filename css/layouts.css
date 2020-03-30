@@ -1,0 +1,30 @@
+header {
+  margin: 40px 0;
+}
+
+main{
+    margin: auto;
+    width: 90%;
+}
+h2 {
+  margin: 10px;
+}
+p {
+  margin: 5px 0;
+}
+.sec {
+  width: 32%;
+  height: 450px;
+  float: left;
+  margin: 5px;
+}
+img {
+  width: 80%;
+  margin: auto auto;
+  height: 321px;
+}
+footer {
+  clear: both;
+  margin: 0 0 10px 0;
+  padding: 13px;
+}
