@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+@import './reset.css';
+@import './base.css';
+@import './layouts.css';
+@import './modules.css';
+@import './theme.css';
+
+/* header {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 40px 0;
+}
+h2 {
+  font-size: large;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.sec {
+  width: 32%;
+  height: 450px;
+  float: left;
+  margin: 5px;
+  background: gray;
+  text-align: center;
+  border: 9px solid #008067;
+}
+img {
+  width: 80%;
+  margin: auto auto;
+  height: 321px;
+}
+footer {
+  clear: both;
+  text-align: center;
+  margin: 0 0 10px 0;
+  padding: 13px;
+} */
