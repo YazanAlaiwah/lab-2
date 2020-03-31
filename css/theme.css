@@ -10,6 +10,13 @@ header {
   border: 9px solid #008067;
 }
 
+.blue {
+  background: blue;
+}
 footer{
     text-align: center;
+}
+
+.popup {
+  background: #00968894;
 }

@@ -2,3 +2,12 @@ h2 {
   font-size: large;
   font-weight: bold;
 }
+i {
+  font-size: xx-large;
+  margin: 10px 0 0 50px;
+}
+.popup p {
+  font-weight: bolder;
+  font-size: large;
+  margin: 15px 0;
+}
