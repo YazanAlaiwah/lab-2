@@ -1,8 +1,14 @@
+*{
+  text-align: center;
+}
 header {
   margin: 40px 0;
 }
 
 main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
     margin: auto;
     width: 90%;
 }
@@ -15,16 +21,24 @@ p {
 .sec {
   width: 32%;
   height: 450px;
-  float: left;
+  /* float: left; */
   margin: 5px;
 }
 img {
   width: 80%;
-  margin: auto auto;
+  margin: auto 10%;
   height: 321px;
 }
 footer {
   clear: both;
   margin: 0 0 10px 0;
   padding: 13px;
+}
+
+.popup {
+  width: 60%;
+  position: fixed;
+  top: 10%;
+  height: 80%;
+  left: 20%;
 }

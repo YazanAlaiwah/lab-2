@@ -5,30 +5,50 @@
     <title>The Gallery of Horns</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stayle.css">
+    <script src="https://kit.fontawesome.com/60a3d0faa7.js" crossorigin="anonymous"></script>
+    <script id="photo-template" type="x-tmpl-mustache">
+        <section data-title='{{title}}' data-horns='{{horns}}'  title='{{title}}' data-sit='1' class="sec {{key}}" id="{{title}}">
+            <h2 id='h2' class="h2">{{title}}</h2>
+            <img class="img" src="{{img}}" alt="">
+            <p class="p">{{des}}</p>
+        </section>
+      </script>
+    <script id="option" type="x-tmpl-mustache">
+        <option value="{{key}}">{{name}}</option>
+      </script>
+    <script id="popup" type="x-tmpl-mustache">
+        <div class='popup'>
+            <div style='display:flex'>
+            <i class="fas fa-times-circle"></i>
+        </div>
+            <h2 class="h2">{{title}}</h2>
+            <img class="img" src="{{img}}" alt="">
+            <p class="p">{{des}}</p>
+        </div>
+        </script>
 </head>
 
 <body>
     <header>
         <h1>The Gallery of Horns</h1>
-        <select class="filter">
+        <select id='filter' class="filter">
             <option value="default">Filter by Keyword</option>
         </select>
-        <select class="sort">
+        <select id="sort" class="sort">
             <option value="default">Sort</option>
             <option value="horns">Horns</option>
             <option value="name">Name</option>
         </select>
+        <button class="blue" id="1">page 1</button><button id="2">page 2</button>
+        <input id="serch" type="text" placeholder="serach">
     </header>
     <main>
-        <section data-sit='1' class="sec" id="photo-template">
-            <h2 class="h2"></h2>
-            <img class="img" src="" alt="">
-            <p class="p"></p>
-        </section>
+
     </main>
     <footer>
         © 2018 Code Fellows
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.1.0/mustache.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="js/app.js"></script>
 </body>
